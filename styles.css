@@ -2,11 +2,12 @@ body {
     
     background-color: lightgray;
 }
-.contaner{
-    max-width: 30em;
+.container{
+    max-width: 45em;
     margin: 1em auto;
-    display: flex;
     align-items: center;
+    padding: 1em;
+    background-color: white;
 
 }
 

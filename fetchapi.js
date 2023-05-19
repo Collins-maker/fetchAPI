@@ -40,7 +40,7 @@ async function createPost() {
     }
   }
   
-  createPost();
+//   createPost();
 
   //udating...
   async function updatePost() {
@@ -83,7 +83,7 @@ async function createPost() {
 //   deletePost();
 
 
-  async function fetchPostsByUserId() {
+  async function filterPosts() {
     try {
       const response = await fetch('https://jsonplaceholder.typicode.com/posts?userId=1');
       const json = await response.json();
@@ -93,7 +93,7 @@ async function createPost() {
     }
   }
   
-//   fetchPostsByUserId();
+//   filterPosts();
 
 
 
