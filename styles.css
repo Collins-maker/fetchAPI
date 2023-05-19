@@ -1,0 +1,16 @@
+body {
+    
+    background-color: lightgray;
+}
+.contaner{
+    max-width: 30em;
+    margin: 1em auto;
+    display: flex;
+    align-items: center;
+
+}
+
+button{
+    padding: 0.5 rem;
+    background-color: aliceblue;
+}
